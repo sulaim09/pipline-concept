@@ -1,0 +1,14 @@
+Pipeline concepts
+The following concepts are key aspects of Jenkins Pipeline, which tie in closely to Pipeline syntax (see the overview below).
+
+Pipeline
+A Pipeline is a user-defined model of a CD pipeline. A Pipeline’s code defines your entire build process, which typically includes stages for building an application, testing it and then delivering it.
+
+Also, a pipeline block is a key part of Declarative Pipeline syntax
+Node
+A node is a machine which is part of the Jenkins environment and is capable of executing a Pipeline.
+
+Also, a node block is a key part of Scripted Pipeline syntax.
+
+Stage
+A stage block defines a conceptually distinct subset of tasks performed through the entire Pipeline (e.g. "Build", "Test" and "Deploy" stages), which is used by many plugins to visualize or present Jenkins Pipeline status/progress. [6]
